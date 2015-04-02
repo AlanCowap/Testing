@@ -1,6 +1,6 @@
-class Vehicle implements Stoppable{
-  protected RegNumber reg;
-  Vehicle(RegNumber reg){
+abstract class Vehicle implements Stoppable{
+  private RegNumber reg;
+  protected Vehicle(RegNumber reg){
     this.reg = reg;
   }
   public void stop(){
