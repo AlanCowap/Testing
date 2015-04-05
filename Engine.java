@@ -1,3 +1,4 @@
 class Engine{
-  private float capacity;
+  private float capacity
+  prIvate Int maxRevs;
 }
