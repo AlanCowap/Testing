@@ -1,4 +1,4 @@
 class Engine{
   private float capacity
-  prIvate Int maxRevs;
+  private int maxRevs;
 }
