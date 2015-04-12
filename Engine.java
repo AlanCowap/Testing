@@ -9,7 +9,7 @@ class Engine{
   }
   
   public void setRevs(float revs){
-    if (revs <= maxRevs){
+    if (revs >= 0 && revs <= maxRevs){
       this.revs = revs;
     }
   }
